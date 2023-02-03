@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 public class Comp107 {
 
     public static void main(String[] args) throws InterruptedException{
-        final int LINE=25,SPACE=10;
+        final int LINE=5,SPACE=10;
         String[] list= new String[LINE];
         for(int i=0;i<LINE;i++){
             list[i]="";
@@ -33,7 +33,6 @@ public class Comp107 {
             for(int p=0;p<list.length;p++){
                 System.out.println(list[p]);
             if(p!=list.length-1&p==i)
-                System.out.println("^-^-^-^-^-^-^-^-^-^-^-^");
                 }
         }
         //new line and output
